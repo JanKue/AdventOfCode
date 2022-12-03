@@ -1,3 +1,26 @@
+def main():
+    # parsing data
+    file = open("../inputs/day2.txt")
+
+    lines = file.read().split('\n')
+    moves = [line.split(' ') for line in lines[:-1]]
+
+    print(lines)
+    print(moves)
+
+    print("PART ONE")
+    scores = [calculate_move_score(move_pair) for move_pair in moves]
+
+    print(scores)
+    print(sum(scores))
+
+    print("PART TWO")
+    scores = [calculate_strategy_score(strategy_pair) for strategy_pair in moves]
+
+    print(scores)
+    print(sum(scores))
+
+
 def calculate_move_score(move_pair):
 
     # normalize move values to 1=rock, 2=paper, 3=scissors
@@ -32,23 +55,5 @@ def calculate_strategy_score(strategy_pair):
     return outcome_score + player_score
 
 
-# parsing data
-file = open("../inputs/day2.txt")
-
-lines = file.read().split('\n')
-moves = [line.split(' ') for line in lines[:-1]]
-
-print(lines)
-print(moves)
-
-print("PART ONE")
-scores = [calculate_move_score(move_pair) for move_pair in moves]
-
-print(scores)
-print(sum(scores))
-
-print("PART TWO")
-scores = [calculate_strategy_score(strategy_pair) for strategy_pair in moves]
-
-print(scores)
-print(sum(scores))
+if __name__ == "__main__":
+    main()

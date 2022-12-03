@@ -1,21 +1,27 @@
-file = open("../inputs/day1.txt")
+def main():
 
-text = file.read()
-lines = text.split('\n\n')
+    file = open("../inputs/day1.txt")
 
-numbers = [[int(n) for n in line.split()] for line in lines]
+    text = file.read()
+    lines = text.split('\n\n')
 
-print(numbers)
+    numbers = [[int(n) for n in line.split()] for line in lines]
 
-totals = [sum(nums) for nums in numbers]
-totals.sort(reverse=True)
+    print(numbers)
 
-print(totals)
+    totals = [sum(nums) for nums in numbers]
+    totals.sort(reverse=True)
 
-maximum = totals[0]
+    print(totals)
 
-print(maximum)
+    maximum = totals[0]
 
-top_three_sum = sum(totals[:3])
+    print(maximum)
 
-print(top_three_sum)
+    top_three_sum = sum(totals[:3])
+
+    print(top_three_sum)
+
+
+if __name__ == "__main__":
+    main()
