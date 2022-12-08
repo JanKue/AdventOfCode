@@ -1,7 +1,3 @@
-import numpy as np
-from collections import defaultdict
-
-
 def main():
     file = open("../inputs/day7.txt")
     lines = file.read().splitlines()
