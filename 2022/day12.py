@@ -4,7 +4,7 @@ from collections import deque
 
 def main():
 
-    file = open("../inputs/day12.txt")
+    file = open("inputs/day12.txt")
     lines = file.read().splitlines()
     board = np.array([[char for char in line] for line in lines])
     heights = np.array([[char_height(char) for char in line] for line in lines])

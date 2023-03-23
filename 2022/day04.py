@@ -1,6 +1,6 @@
 def main():
 
-    file = open("../inputs/day4.txt")
+    file = open("inputs/day04.txt")
     lines = file.read().splitlines()
     print(lines)
 

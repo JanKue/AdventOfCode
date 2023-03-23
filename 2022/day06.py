@@ -3,7 +3,7 @@ import numpy as np
 
 def main():
 
-    file = open("../inputs/day6.txt")
+    file = open("inputs/day06.txt")
     data = file.read()
     print(data)
 

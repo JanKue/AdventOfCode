@@ -3,7 +3,7 @@ import numpy as np
 
 def main():
 
-    file = open("../inputs/day14.txt")
+    file = open("inputs/day14.txt")
     lines = file.read().splitlines()
     # print(lines)
     cave_map = build_grid(lines)

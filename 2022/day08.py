@@ -2,7 +2,7 @@ import numpy as np
 
 
 def main():
-    file = open("../inputs/day8.txt")
+    file = open("inputs/day08.txt")
     lines = file.read().splitlines()
 
     grid = [[int(char) for char in line] for line in lines]

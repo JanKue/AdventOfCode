@@ -4,7 +4,7 @@ import numpy as np
 
 
 def main():
-    file = open("../inputs/day9.txt")
+    file = open("inputs/day09.txt")
     lines = file.read().splitlines()
     print(lines)
 

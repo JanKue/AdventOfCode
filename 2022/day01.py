@@ -1,6 +1,6 @@
 def main():
 
-    file = open("../inputs/day1.txt")
+    file = open("inputs/day01.txt")
 
     text = file.read()
     lines = text.split('\n\n')

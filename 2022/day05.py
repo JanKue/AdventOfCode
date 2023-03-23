@@ -2,7 +2,7 @@ from collections import deque
 
 def main():
 
-    file = open("../inputs/day5.txt")
+    file = open("inputs/day05.txt")
     data = file.read()
     sections = data.split('\n\n')
     starting_config = sections[0]

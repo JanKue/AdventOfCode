@@ -5,7 +5,7 @@ from scipy.spatial.distance import cityblock
 
 def main():
 
-    file = open("../inputs/day15.txt")
+    file = open("inputs/day15.txt")
     lines = file.read().splitlines()
     print(lines)
 

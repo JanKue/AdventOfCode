@@ -1,6 +1,6 @@
 def main():
     # parsing data
-    file = open("../inputs/day2.txt")
+    file = open("inputs/day02.txt")
 
     lines = file.read().split('\n')
     moves = [line.split(' ') for line in lines[:-1]]

@@ -5,7 +5,7 @@ from collections import deque
 
 def main():
 
-    file = open("../inputs/example16.txt")
+    file = open("inputs/example16.txt")
     lines = file.read().splitlines()
 
     graph, capacities = make_graph(lines)

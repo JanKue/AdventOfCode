@@ -4,7 +4,7 @@ import functools
 
 def main():
 
-    file = open("../inputs/day13.txt")
+    file = open("inputs/day13.txt")
     data = file.read()
     example_data = """[1,1,3,1,1]
 [1,1,5,1,1]

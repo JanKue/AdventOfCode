@@ -1,6 +1,6 @@
 def main():
 
-    file = open("../inputs/day10.txt")
+    file = open("inputs/day10.txt")
     lines = file.read().splitlines()
 
     signal_values = parse_signal_values(lines)
