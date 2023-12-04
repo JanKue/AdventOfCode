@@ -2,7 +2,7 @@ import re
 
 def main():
     # parsing data
-    file = open("../inputs/2023/day01.txt")
+    file = open("./inputs/day01.txt")
     lines = file.read().splitlines()
     print(lines)
 
